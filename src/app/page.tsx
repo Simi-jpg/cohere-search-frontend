@@ -3,7 +3,7 @@
 import { useState } from "react";
 import SearchResults from "@/components/SearchResults";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://cohere-semantic-search-api-p96p.vercel.app";
 
 export default function Home() {
   const [documentText, setDocumentText] = useState("");
